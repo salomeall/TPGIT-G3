@@ -2,19 +2,19 @@ package nintendo.model;
 
 public class Adresse {
 	
-	private Integer numero;
+	private String numero;
 	private String rue;
 	private String ville;
-	public Adresse(Integer numero, String rue, String ville) {
+	public Adresse(String numero, String rue, String ville) {
 		super();
 		this.numero = numero;
 		this.rue = rue;
 		this.ville = ville;
 	}
-	public Integer getNumero() {
+	public String getNumero() {
 		return numero;
 	}
-	public void setNumero(Integer numero) {
+	public void setNumero(String numero) {
 		this.numero = numero;
 	}
 	public String getRue() {
