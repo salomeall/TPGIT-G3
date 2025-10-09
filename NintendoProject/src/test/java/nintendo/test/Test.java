@@ -9,11 +9,11 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Console c1 = new Console("Nintendo Switch");
-		Console c2 = new Console("Nintendo DS");
-		Console c3 = new Console("Nintendo Wii");
-		Console c4 = new Console("Nintendo Gameboy");
-		Console c5 = new Console("Nintendo GameCube");
+		Console c1 = new Console("Nintendo Switch",34.45,"12/12/2020");
+		Console c2 = new Console("Nintendo DS",39.45,"12/12/2007");
+		Console c3 = new Console("Nintendo Wii",64.45,"12/12/2003");
+		Console c4 = new Console("Nintendo Gameboy",56.45,"12/12/1980");
+		Console c5 = new Console("Nintendo GameCube",14.45,"12/12/1920");
 		Adresse a1 = new Adresse("7","Rue de Mounir","New York");
 		Boutique b1 = new Boutique("Micromania",a1);
 		

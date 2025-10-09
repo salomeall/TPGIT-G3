@@ -3,7 +3,7 @@ package nintendo.model;
 abstract class Console {
 
 	protected String nom;
-	protected int prix;
+	protected double prix;
 	protected String dateSortie;
 
 	public Console(String nom,int prix,String dateSortie) {
