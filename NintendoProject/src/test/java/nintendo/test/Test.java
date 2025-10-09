@@ -2,6 +2,7 @@ package nintendo.test;
 
 import nintendo.model.Adresse;
 import nintendo.model.Boutique;
+import nintendo.model.Client;
 import nintendo.model.Console;
 
 public class Test {
@@ -22,7 +23,10 @@ public class Test {
 		System.out.println(c4);
 		System.out.println(c5);
 		
-
+		Client cl1 = new Client("Sanches", "Viviana");
+		Client cl2 = new Client("Allali", "Salome");
+		System.out.println(cl1);
+		System.out.println(cl2);
 	}
 
 }
