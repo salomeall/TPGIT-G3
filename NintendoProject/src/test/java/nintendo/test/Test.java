@@ -1,6 +1,7 @@
 package nintendo.test;
 
-import nintendo.model.Client;
+import nintendo.model.Adresse;
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 
 public class Test {
@@ -12,6 +13,8 @@ public class Test {
 		Console c3 = new Console("Nintendo Wii");
 		Console c4 = new Console("Nintendo Gameboy");
 		Console c5 = new Console("Nintendo GameCube");
+		Adresse a1 = new Adresse("7","Rue de Mounir","New York");
+		Boutique b1 = new Boutique("Micromania",a1);
 		
 		System.out.println(c1);
 		System.out.println(c2);
