@@ -2,7 +2,7 @@ package nintendo.model;
 
 public class Portable extends Console{
 
-	public Portable(String nom, int prix, String dateSortie) {
+	public Portable(String nom, double prix, String dateSortie) {
 		super(nom, prix, dateSortie);
 		// TODO Auto-generated constructor stub
 	}

@@ -6,7 +6,7 @@ abstract class Console {
 	protected double prix;
 	protected String dateSortie;
 
-	public Console(String nom,int prix,String dateSortie) {
+	public Console(String nom,double prix,String dateSortie) {
 		this.nom = nom;
 		this.prix = prix;
 		this.dateSortie = dateSortie;

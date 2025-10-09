@@ -4,18 +4,21 @@ import nintendo.model.Achat;
 import nintendo.model.Adresse;
 import nintendo.model.Boutique;
 import nintendo.model.Client;
-import nintendo.model.Console;
+
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
+import nintendo.model.Portable;
+import nintendo.model.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
 		
-		Console c1 = new Console("Nintendo Switch",34.45,"12/12/2020");
-		Console c2 = new Console("Nintendo DS",39.45,"12/12/2007");
-		Console c3 = new Console("Nintendo Wii",64.45,"12/12/2003");
-		Console c4 = new Console("Nintendo Gameboy",56.45,"12/12/1980");
-		Console c5 = new Console("Nintendo GameCube",14.45,"12/12/1920");
+		Hybride c1 = new Hybride ("Nintendo Switch",34.45,"12/12/2020");
+		Portable c2 = new Portable("Nintendo DS",39.45,"12/12/2007");
+		Salon c3 = new Salon("Nintendo Wii",64.45,"12/12/2003");
+		Portable c4 = new Portable("Nintendo Gameboy",56.45,"12/12/1980");
+		Salon c5 = new Salon("Nintendo GameCube",14.45,"12/12/1920");
 		Adresse a1 = new Adresse("7","Rue de Mounir","New York");
 		Boutique b1 = new Boutique("Micromania",a1);
 		
