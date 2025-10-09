@@ -1,9 +1,11 @@
 package nintendo.test;
 
+import nintendo.model.Achat;
 import nintendo.model.Adresse;
 import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
+import nintendo.model.Jeu;
 
 public class Test {
 
@@ -23,8 +25,21 @@ public class Test {
 		System.out.println(c4);
 		System.out.println(c5);
 		
+		Jeu j1 = new Jeu("Zelda", c1, b1);
+        Jeu j2 = new Jeu("Super Mario", c2, b1);
+        Jeu j3 = new Jeu("Animal Crossing", c1, b1);
+
+        Achat ach1 = new Achat(j1, "2025-10-01", 59.99);
+        Achat ach2 = new Achat(j2, "2025-10-05", 49.99);
+        Achat ach3 = new Achat(j3, "2025-10-07", 59.99);
+       
 		Client cl1 = new Client("Sanches", "Viviana");
 		Client cl2 = new Client("Allali", "Salome");
+		
+		cl1.ajouterAchat(ach1);
+		cl1.ajouterAchat(ach2);
+		cl2.ajouterAchat(ach3);
+		
 		System.out.println(cl1);
 		System.out.println(cl2);
 	}
