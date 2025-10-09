@@ -2,6 +2,7 @@ package nintendo.test;
 
 import nintendo.model.Adresse;
 import nintendo.model.Boutique;
+import nintendo.model.Client;
 import nintendo.model.Console;
 
 public class Test {
