@@ -1,11 +1,16 @@
 package nintendo.model;
 
-public class Console {
+abstract class Console {
 
-	private String nom;
+	protected String nom;
+	protected int prix;
+	protected String dateSortie;
 
-	public Console(String nom) {
+	public Console(String nom,int prix,String dateSortie) {
 		this.nom = nom;
+		this.prix = prix;
+		this.dateSortie = dateSortie;
+				
 	}
 
 	public String getNom() {
